@@ -1,0 +1,80 @@
+{
+	"app": {
+		"background": {
+			"page": "app_main.html"
+		}
+	},
+	"arc_metadata": {
+		"enableAdb": true,
+		"apkList": [
+			"com.nianticlabs.pokemongo_0.33.0-2016080700_minAPI19(armeabi-v7a)(nodpi)_apkmirror.com.apk"
+		],
+		"enableExternalDirectory": true,
+		"formFactor": "phone",
+		"name": "com.nianticlabs.pokemongo_0.33.0",
+		"orientation": "portrait",
+		"packageName": "com.nianticlabs.pokemongo_0.33.0",
+		"useGoogleContactsSyncAdapter": false,
+		"usePlayServices": [
+			"gcm",
+			"plus"
+		]
+	},
+	"default_locale": "en",
+	"icons": {
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+	"import": [
+		{
+			"id": "mfaihdlpglflfgpfjcifdjdjcckigekc"
+		}
+	],
+	"manifest_version": 2,
+	"name": "__MSG_extName__",
+	"oauth2": {
+		"client_id": "133701689125-jj0hr4gb0ff4ulsbrn0uk2i4th946d4c.apps.googleusercontent.com",
+		"scopes": []
+	},
+	"offline_enabled": true,
+	"permissions": [
+		"gcm",
+		{
+			"socket": [
+				"tcp-connect",
+				"tcp-listen",
+				"udp-bind",
+				"udp-send-to",
+				"resolve-host"
+			]
+		},
+		"accessibilityFeatures.read",
+		"unlimitedStorage",
+		"notifications",
+		"clipboardRead",
+		{
+			"fileSystem": [
+				"write",
+				"retainEntries",
+				"directory"
+			]
+		},
+		"https://clients2.google.com/",
+		"videoCapture",
+		"clipboardWrite",
+		"identity.email",
+		"alarms",
+		"storage",
+		"identity",
+		"audioCapture"
+	],
+	"requirements": {
+		"3D": {
+			"features": [
+				"webgl"
+			]
+		}
+	},
+	"update_url": "https://localhost",
+	"version": "1337"
+}
